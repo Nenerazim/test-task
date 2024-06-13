@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+.nuxt
+coverage
+*.log*
+.DS_Store
+.code
+package-lock.json
+templates/*
+sw.js
+
+# Templates
+src/templates

@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0 solid;
+	text-size-adjust: none;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+	border: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+input,
+textarea,
+button,
+fieldset {
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	color: inherit;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	appearance: none;
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+input:disabled,
+textarea:disabled,
+button:disabled,
+fieldset:disabled {
+	cursor: not-allowed;
+}

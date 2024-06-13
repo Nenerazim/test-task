@@ -1,0 +1,26 @@
+.output
+.data
+.nuxt
+.nitro
+dist
+build
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# pnpm npm lock
+package-lock.json
+pnpm-lock.yaml
